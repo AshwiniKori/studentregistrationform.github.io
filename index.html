@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Registration Form</title>
+</head>
+<body>
+    <h2>Student Registration Form:</h2>
+    <form>
+        <fieldset>
+            <label for="a1"><strong>First Name:</strong></label><br>
+            <input type="text" id="a1" max="50">(Max 50 Charecters Allowed)
+            <br>
+            <br>
+            <label for="a2"><strong>Last Name:</strong></label><br>
+            <input type="text" id="a2" maxlength="5">(Max 50 Charecters Allowed)
+            <br>
+            <br>
+            <label for="a3"><strong>Mobile Number:</strong></label><br>
+            <input type="tel" id="a3" minlength="10" maxlength="10">(Max 10 Digits Allowed)
+            <br>
+            <br>
+            <label for="a4"><strong>Email-ID:</strong></label><br>
+            <input type="email" id="a4">
+            <br>
+            <br>
+            <label for=""><strong>Gender:</strong></label>
+            <input type="radio" name="gen">Male
+            <input type="radio" name="gen">Female
+            <br>
+            <br>
+            <label for="a5"><strong>Date of Birth:</strong></label>
+            <input type="date" id="a5">
+            <br>
+            <br>
+            <label for="a6"><strong>Address:</strong></label><br>
+            <textarea id="a6" rows="10" cols="20"></textarea>
+            <br>
+            <br>
+            <label><strong>City:</strong></label>
+            <input type="text" maxlength="50">(Max 50 Charecters Allowed)
+            <br>
+            <br>
+            <label><strong>PinCode</strong></label>
+            <input type="number" maxlength="6">(Max 6 Digits Allowed)
+            <br>
+            <br>
+            <label><strong>State:</strong></label>
+            <input type="text" maxlength="50">(Max 50 Charecters Allowed)
+            <br>
+            <br>
+            <label><strong>Country:</strong></label>
+            <select>
+                <option>Select state</option>
+                <option>Karnataka</option>
+                <option>Maharastra</option>
+                <option>Goa</option>
+                <option>Kerala</option>
+            </select>
+            <br>
+            <br>
+            <label><strong>Hobbies:</strong></label>
+            <input type="Checkbox" name="hobbie">Drawing
+            <input type="Checkbox" name="hobbie">Singing
+            <input type="Checkbox" name="hobbie">Dancing
+            <input type="Checkbox" name="hobbie">Sketching
+            <input type="Checkbox" name="hobbie">Others
+            <br>
+            <br>
+            <label><strong>Qualification:</strong></label>
+            <input type="radio" name="quali">High School(10th)
+            <input type="radio" name="quali">Higher School(12th)
+            <input type="radio" name="quali">Graduation(Bachelors)
+            <input type="radio" name="quali">Post Graduation(Masters)
+            <input type="radio" name="quali">Phd
+            <br>
+            <br>
+            <label><strong>Course Applied for:</strong></label>
+            <input type="radio" name="course">Frontend Developer
+            <input type="radio" name="course">Backend Developer
+            <input type="radio" name="course">Fullstack Developer
+            <br>
+            <br>
+            <label><strong>Platform:</strong></label>
+            <input type="radio" name="form">Online
+            <input type="radio" name="form">Offline
+            <input type="radio" name="form">Both
+            <br>
+            <br>
+            <button type="submit"><strong>Submit</strong></button>
+            <button type="reset"><strong>Reset</strong></button>
+        </fieldset>
+    </form>
+</body>
+</html>
